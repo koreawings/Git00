@@ -1,0 +1,1 @@
+nohup geth --networkid 4649 --nodiscover --datadir /home/user01/DappDemo --rpc --rpcaddr "192.168.10.161" --rpcport "8545" --rpccorsdomain "*" --rpcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --verbosity 5 2>>/home/user01/DappDemo/geth.log &
